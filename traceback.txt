@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 370, in script
+    $ renpy.link("https://forms.gle/DiWt2bjSZSB3Kafp6", target="https://forms.gle/DiWt2bjSZSB3Kafp6")
+  File "game/script.rpy", line 370, in <module>
+    $ renpy.link("https://forms.gle/DiWt2bjSZSB3Kafp6", target="https://forms.gle/DiWt2bjSZSB3Kafp6")
+AttributeError: module 'renpy.exports' has no attribute 'link'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 370, in script
+    $ renpy.link("https://forms.gle/DiWt2bjSZSB3Kafp6", target="https://forms.gle/DiWt2bjSZSB3Kafp6")
+  File "C:\Users\admin\Downloads\renpy-8.1.3-sdk\renpy\ast.py", line 1138, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\admin\Downloads\renpy-8.1.3-sdk\renpy\python.py", line 1122, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 370, in <module>
+    $ renpy.link("https://forms.gle/DiWt2bjSZSB3Kafp6", target="https://forms.gle/DiWt2bjSZSB3Kafp6")
+AttributeError: module 'renpy.exports' has no attribute 'link'
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.1.3.23091805
+Game 1.0
+Wed Mar 20 12:40:42 2024
